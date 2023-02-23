@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1B83E429A77BF7004FCBAB /* ArrayObjectEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B83E329A77BF7004FCBAB /* ArrayObjectEntity.swift */; };
+		CE1B83E629A77E00004FCBAB /* MovieEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B83E529A77E00004FCBAB /* MovieEntity.swift */; };
+		CE1B83E929A780C5004FCBAB /* NetworkBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B83E829A780C5004FCBAB /* NetworkBase.swift */; };
 		CEC0C6A129A467060064D815 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0C6A029A467060064D815 /* AppDelegate.swift */; };
 		CEC0C6A329A467060064D815 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0C6A229A467060064D815 /* SceneDelegate.swift */; };
 		CEC0C6A529A467060064D815 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC0C6A429A467060064D815 /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE1B83E329A77BF7004FCBAB /* ArrayObjectEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayObjectEntity.swift; sourceTree = "<group>"; };
+		CE1B83E529A77E00004FCBAB /* MovieEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEntity.swift; sourceTree = "<group>"; };
+		CE1B83E829A780C5004FCBAB /* NetworkBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkBase.swift; sourceTree = "<group>"; };
 		CEC0C69D29A467060064D815 /* MovieAppIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieAppIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC0C6A029A467060064D815 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC0C6A229A467060064D815 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE1B83E029A77B63004FCBAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B83E329A77BF7004FCBAB /* ArrayObjectEntity.swift */,
+				CE1B83E529A77E00004FCBAB /* MovieEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CE1B83E729A7808A004FCBAB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B83E829A780C5004FCBAB /* NetworkBase.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		CEC0C69429A467060064D815 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +79,8 @@
 		CEC0C69F29A467060064D815 /* MovieAppIOS */ = {
 			isa = PBXGroup;
 			children = (
+				CE1B83E729A7808A004FCBAB /* Network */,
+				CE1B83E029A77B63004FCBAB /* Model */,
 				CEC0C6A029A467060064D815 /* AppDelegate.swift */,
 				CEC0C6A229A467060064D815 /* SceneDelegate.swift */,
 				CEC0C6A429A467060064D815 /* ViewController.swift */,
@@ -139,6 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEC0C6A529A467060064D815 /* ViewController.swift in Sources */,
+				CE1B83E629A77E00004FCBAB /* MovieEntity.swift in Sources */,
+				CE1B83E929A780C5004FCBAB /* NetworkBase.swift in Sources */,
+				CE1B83E429A77BF7004FCBAB /* ArrayObjectEntity.swift in Sources */,
 				CEC0C6A129A467060064D815 /* AppDelegate.swift in Sources */,
 				CEC0C6A329A467060064D815 /* SceneDelegate.swift in Sources */,
 			);

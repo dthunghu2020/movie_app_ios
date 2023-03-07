@@ -7,17 +7,94 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "822D1C5E-CED3-4573-B2FC-ED6469A3C405"
-            shouldBeEnabled = "Yes"
+            uuid = "CD384370-4C5E-4B4B-AC7D-A18529172A34"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MovieAppIOS/ViewController.swift"
+            filePath = "MovieAppIOS/CollectionViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "ViewController"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "CollectionViewCell"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CD384370-4C5E-4B4B-AC7D-A18529172A34 - 16c6633ee7ee5a48"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieAppIOS.CollectionViewCell.__allocating_init(frame: __C.CGRect) -&gt; MovieAppIOS.CollectionViewCell"
+                  moduleName = "MovieAppIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hungdt/Documents/movie_app_ios/MovieAppIOS/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "CD384370-4C5E-4B4B-AC7D-A18529172A34 - 6c716d558936e406"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieAppIOS.CollectionViewCell.init(frame: __C.CGRect) -&gt; MovieAppIOS.CollectionViewCell"
+                  moduleName = "MovieAppIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hungdt/Documents/movie_app_ios/MovieAppIOS/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "CD384370-4C5E-4B4B-AC7D-A18529172A34 - 52c22e2e89d73d9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieAppIOS.CollectionViewCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MovieAppIOS.CollectionViewCell&gt;"
+                  moduleName = "MovieAppIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hungdt/Documents/movie_app_ios/MovieAppIOS/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "CD384370-4C5E-4B4B-AC7D-A18529172A34 - e9156ad9acc87f00"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieAppIOS.CollectionViewCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MovieAppIOS.CollectionViewCell&gt;"
+                  moduleName = "MovieAppIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hungdt/Documents/movie_app_ios/MovieAppIOS/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "CD384370-4C5E-4B4B-AC7D-A18529172A34 - 8fab18be02c42e7a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MovieAppIOS.CollectionViewCell.__deallocating_deinit"
+                  moduleName = "MovieAppIOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hungdt/Documents/movie_app_ios/MovieAppIOS/CollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
